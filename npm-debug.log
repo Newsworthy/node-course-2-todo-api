@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'test' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose run-script [ 'pretest', 'test', 'posttest' ]
+5 info lifecycle node-todo-api@1.0.0~pretest: node-todo-api@1.0.0
+6 silly lifecycle node-todo-api@1.0.0~pretest: no script for pretest, continuing
+7 info lifecycle node-todo-api@1.0.0~test: node-todo-api@1.0.0
+8 verbose lifecycle node-todo-api@1.0.0~test: unsafe-perm in lifecycle true
+9 verbose lifecycle node-todo-api@1.0.0~test: PATH: /usr/share/npm/bin/node-gyp-bin:/mnt/d/Dropbox/uDemy/node-todo-api/node_modules/.bin:/mnt/d/Dropbox/uDemy/node-todo-api/node_modules/.bin:/usr/share/npm/bin/node-gyp-bin:/mnt/d/Dropbox/uDemy/node-todo-api/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath_target_1286750:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Program Files (x86)/Python35-32/Scripts:/mnt/c/Program Files (x86)/Python35-32:/mnt/c/ProgramData/Oracle/Java/javapath_target_1329546:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files (x86)/Skype/Phone:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files/dotnet:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY:/mnt/c/Users/Newsworthy/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Newsworthy/AppData/Local/atom/bin:/snap/bin
+10 verbose lifecycle node-todo-api@1.0.0~test: CWD: /mnt/d/Dropbox/uDemy/node-todo-api
+11 silly lifecycle node-todo-api@1.0.0~test: Args: [ '-c', 'mocha server/**/*.test.js' ]
+12 verbose stack Error: write EIO
+12 verbose stack     at _errnoException (util.js:1022:11)
+12 verbose stack     at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
+13 verbose cwd /mnt/d/Dropbox/uDemy/node-todo-api
+14 error Linux 4.4.0-17134-Microsoft
+15 error argv "/usr/bin/node" "/usr/bin/npm" "test"
+16 error node v8.10.0
+17 error npm  v3.5.2
+18 error code EIO
+19 error errno EIO
+20 error syscall write
+21 error write EIO
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
